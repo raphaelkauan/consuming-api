@@ -54,7 +54,7 @@ router.get("/register-ceps", async (req, res) => {
                 })
             )
         );
-        return res.json("Sucesso!");
+        return console.log("Sucesso!");
     } catch (error) {
         console.log("Error!");
     }
